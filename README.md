@@ -4,7 +4,7 @@ Talks, articles, papers that I watch or read during lunch time
 
 ### Talks
 
-* [The insufficiency of good design](https://www.youtube.com/watch?v=UgrVdHYEZGg)
+* [The insufficiency of good design by Sarah Mei](https://www.youtube.com/watch?v=UgrVdHYEZGg)
   * [Conway's Law](https://en.wikipedia.org/wiki/Conway's_law)
   * Good communication produces good code
   * Decoding smelly code
