@@ -37,7 +37,7 @@ Talks, articles, papers that I watch or read during lunch time
       things
     * Describing something using "or" implies that it does two different and
       unrelated things
-    * As soon as you feel resistant with arguments order that's a [data clump](https://en.wikipedia.org/wiki/Data_Clump_(Code_Smell)
+    * As soon as you feel resistant with arguments order that's a [data clump](https://en.wikipedia.org/wiki/Data_Clump_(Code_Smell))
       use a hash or value object
   * When testing - if it's going to change on production inject if not stub
   * Refactor not because you know which is the abstraction but because you want
