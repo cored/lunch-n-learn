@@ -70,3 +70,30 @@ Talks, articles, papers that I watch or read during lunch time
     * Unstable dependencies increases risk
     * Try to always loose coupling
     * Uncertainty should be your guide
+
+* [Therapeutic Refactoring by Katrina Owens](https://www.youtube.com/watch?v=J4dlF0kcThQ)
+  * Guilt driven development
+    * [Refactoring](https://martinfowler.com/books/refactoring.html)
+  * [Characterization tests](https://en.wikipedia.org/wiki/Characterization_test)
+    * Add test cases to discover what the code do right now
+  * [Replace method with method object](https://sourcemaking.com/refactoring/replace-method-with-method-object)
+    * To isolate the behavior
+    * Rename methods in terms of what the method does
+    * Follow longest lines to do extraction for clarification
+      * Helps you identify a piece of code that does something and give it
+        a name
+  * [Code smells](https://sourcemaking.com/refactoring/smells)
+  * Code junks
+    * Comments
+      * Do not echo the implementation
+      * Do not be wrong or mispell
+    * White spaces
+    * Remove dead code
+    * Needles parenthesis
+    * Explicit default parameters
+    * Unneeded dependencies
+    * Too much hard work - simplify the code at every change
+    * Duplicated tests
+    * Combine all of the above
+
+
