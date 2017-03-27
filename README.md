@@ -48,4 +48,25 @@ Talks, articles, papers that I watch or read during lunch time
   * DRY is not enough
   * Design because you expect your application to succeed
 
-
+* [Less - The path to better design by Sandi Metz](https://vimeo.com/26330100)
+  * What is design?
+    * Not something establish by an architect but something you evolve through
+      several iterations
+  * Code needs to - work today, be able to change forever
+  * Design purpose
+    * Reduce the cost of change
+  * [Design description](https://content.pivotal.io/blog/solid-object-oriented-design-sandi-metz)
+    * Easily composable
+    * Highly cohesive
+    * Loosely coupled
+    * Context independent
+  * TRUE
+    * Transparent - Consequence of change should be obvious
+    * Reasonable - Cost of adding a new feature is proportional to it's value
+    * Usable - If you write the code; you should be able to use it
+    * Exemplary - More code like this should be good for your application
+  * Knowledge is coupling
+    * Create dependencies
+    * Unstable dependencies increases risk
+    * Try to always loose coupling
+    * Uncertainty should be your guide
