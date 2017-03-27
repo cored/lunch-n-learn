@@ -14,7 +14,7 @@ Talks, articles, papers that I watch or read during lunch time
   * Create opportunities for informal communication
 
 * [SOLID Object Oriented Design by Sandi Metz](https://www.youtube.com/watch?v=v-2yFMzxqwU)
-  * [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+  * [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
   * Rigid - Every change causes a cascade of changes
   * Fragile - Distant and unrelated changes with every other change
   * Immobile - You can't reuse anything
@@ -37,7 +37,7 @@ Talks, articles, papers that I watch or read during lunch time
       things
     * Describing something using "or" implies that it does two different and
       unrelated things
-    * As soon as you feel resistant with arguments order that's a [data clump](https://en.wikipedia.org/wiki/Data_Clump_(Code_Smell)
+    * As soon as you feel resistant with arguments order that's a [data clump](https://en.wikipedia.org/wiki/Data_Clump_(Code_Smell))
       use a hash or value object
   * When testing - if it's going to change on production inject if not stub
   * Refactor not because you know which is the abstraction but because you want
