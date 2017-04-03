@@ -96,4 +96,32 @@ Talks, articles, papers that I watch or read during lunch time
     * Duplicated tests
     * Combine all of the above
 
+* [Get a whiff of this by Sandi Metz](https://www.youtube.com/watch?v=PJjHfa5yxlU)
+  * [Code smells](https://sourcemaking.com/refactoring/smells)
+    * Bloaters
+      * [Long method](https://sourcemaking.com/refactoring/smells/long-method)
+      * [Large class](https://sourcemaking.com/refactoring/smells/large-class)
+      * [Data clumps](https://sourcemaking.com/refactoring/smells/data-clumps)
+      * [Long parameter list](https://sourcemaking.com/refactoring/smells/long-parameter-list)
+      * [Primitive obsession](https://sourcemaking.com/refactoring/smells/primitive-obsession)
+    * Tool abusers
+      * [Switch statements](https://sourcemaking.com/refactoring/smells/switch-statements)
+      * [Refused bequest](https://sourcemaking.com/refactoring/smells/refused-bequest)
+      * [Alternative Classes w/ different interfaces](https://sourcemaking.com/refactoring/smells/alternative-classes-with-different-interfaces)
+      * [Temporary field](https://sourcemaking.com/refactoring/smells/temporary-field)
+    * Change preventers
+      * [Divergent change](https://sourcemaking.com/refactoring/smells/divergent-change)
+      * [Shotgun surgery](https://sourcemaking.com/refactoring/smells/shotgun-surgery)
+      * [Parallel inheritance hierarchies](https://sourcemaking.com/refactoring/smells/parallel-inheritance-hierarchies)
+    * Dispensables
+      * [Lazy class](https://sourcemaking.com/refactoring/smells/lazy-class)
+      * [Speculative generality](https://sourcemaking.com/refactoring/smells/speculative-generality)
+      * [Data class](https://sourcemaking.com/refactoring/smells/data-class)
+      * [Duplicated code](https://sourcemaking.com/refactoring/smells/duplicate-code)
+    * Couplers
+      * [Feature envy](https://sourcemaking.com/refactoring/smells/feature-envy)
+      * [Inappropriate intimacy](https://sourcemaking.com/refactoring/smells/inappropriate-intimacy)
+      * [Message chains](https://sourcemaking.com/refactoring/smells/message-chains)
+      * [Middle man](https://sourcemaking.com/refactoring/smells/middle-man)
+  * Every code smell has a refactoring recipe
 
