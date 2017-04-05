@@ -125,3 +125,69 @@ Talks, articles, papers that I watch or read during lunch time
       * [Middle man](https://sourcemaking.com/refactoring/smells/middle-man)
   * Every code smell has a refactoring recipe
 
+* [Rampant Emergence: Lessons Learned from 4 Years of Aggressive Change by Neal Ford](https://vimeo.com/75256535)
+  * Emergent design
+    * Finding abstractions and patterns
+    * Last responsible moment - It is safe to defer decisions?
+      * Longer delay; more real data for decision
+    * [Who needs an architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
+    * Architecture
+      * Dynamic - Hard to change later
+      * Static - web frameworks, tools. Allow few changes as possible
+      * Product - features
+      * Technical - Static/Dynamic
+    * Traditional architect role
+      * Define long term architecture up front
+    * Agile architecture role
+      * Few architecture elements and make them as flexible as possible
+    * Don't do stupid things
+      * Staff projects inadequately
+      * Ramp up staffing too quickly
+      * Assume good initial velocity on brand new X
+      * Indulge in RDD (Resume Driven Development) - Put every single
+        technology on your codebase
+      * Anything on [Anti Patterns Catalog](http://c2.com/cgi/wiiki?AntiPatternsCatalog)
+    * Be careful of architectural smearing
+      * Produce afferent/efferent coupling between components
+    * Stay in sync with upgrades
+      * Tools, OS, frameworks
+      * Future ported features are hard to refactor
+      * Lingering upgrades == technical debt * 2
+      * Age of codebase by number of components ongoing effort required for
+        stasis
+      * Especially true for "smeary" frameworks - Rails does this
+      * Budget early as technical stories/tasks
+    * Keep domain logic DRY
+      * Business rules
+      * Validations
+      * Data rules
+      * Workflow
+    * Functionality must exist across tiers
+    * Green to brown - when a project has some time in development
+      * Every project hits an inflection point
+      * Engineering practices should reflect the change
+      * Add semi-permanent technical debts cards (Why not do refactoring every
+        time someone touches the code?)
+      * Harvesting model for reuse
+      * Switch to emergent design styles
+    * No design
+      * No matter how much you try, requirements evolve chaotically
+      * Bed-rock assumptions become malleable
+    * Prefer dynamic over static
+      * Don't think of the application as an equation
+      * Make rules and policies dynamic
+    * Loose coupling at integrations points
+      * Early integration efforts focused on RPC-style interaction
+      * Great for an equation bu lousy for a process
+      * Resources over remote procedure calls
+      * Choreography over orchestration
+    * Coarse-grained components/services
+      * Continuous delivery
+    * Semantic monitoring
+    * [Consumer driven contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
+    * For brown field projects
+      * Refactoring and restructuring exercises require increasing effort for
+        the same result
+      * Plan escalating effort towards remedial architecture and design
+      * Trade off for reduced up-front effort
+
